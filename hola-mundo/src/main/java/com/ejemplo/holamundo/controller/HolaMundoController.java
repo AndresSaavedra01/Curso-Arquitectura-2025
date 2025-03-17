@@ -1,4 +1,4 @@
-package com.ejemplo.holamundo;
+package com.ejemplo.holamundo.controller;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -7,8 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class HolaMundoController {
 
     @GetMapping("/hola")
-    public  String hola(){
-        return  "Hola Mundo desde Spring Boot!";
+    public String hola() {
+        return "Hola Mundo desde Spring Boot!";
     }
-
 }
